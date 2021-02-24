@@ -67,6 +67,11 @@ let g:ctrlp_use_caching = 0
 let g:spaceline_seperate_style = 'curve'
 let g:spaceline_colorscheme = 'space'
 
+" Vim-Dodge
+let g:doge_mapping = 'd'
+let g:doge_doc_standard_python = 'google'
+let g:doge_python_settings = {'single_quotes': 0}
+
 " ChadTree
 nnoremap <leader>v <cmd>CHADopen<cr>
 nnoremap <leader>l <cmd>call setqflist([])<cr>
